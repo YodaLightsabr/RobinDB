@@ -1,0 +1,34 @@
+{
+  "name": "robindb",
+  "version": "2.0.3",
+  "description": "A quick database for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ognom": "cli.js"
+  },
+  "author": "YodaLightsabr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YodaLightsabr/RobinDB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YodaLightsabr/RobinDB/issues"
+  },
+  "homepage": "https://github.com/YodaLightsabr/RobinDB#readme",
+  "keywords": [
+    "database",
+    "quick",
+    "easy",
+    "fast",
+    "db",
+    "nedb"
+  ],
+  "dependencies": {
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {}
+}

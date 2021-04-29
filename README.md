@@ -63,8 +63,22 @@ returns `Promise<Number>`
 
 
 ### `Robin.delete(key)`
+Delete a key from the database
  - `key` - The key to delete. If deleting a key nested inside of objects, use dot notation. Required
 
 returns `Promise<Number>`
+
+
+### `Robin.has(key)`
+Find if a key exists in the database
+ - `key` - The key to look for
+
+returns `Promise<Boolean>`
+
+
+### `Robin.all()`
+Get the entire database
+
+returns `Promise<Object>`
 
 That's it! If you have any questions I'm [YodaLightsabr#6565 on Discord](https://discord.gg/M8YY32acjm).

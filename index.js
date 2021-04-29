@@ -36,6 +36,15 @@ var dbget = function (index) {
     });
   });
 }
+var dbhas = function (key) {
+  return new Promise(async (resolve, reject) => {
+    var value = await dbget(key);
+    resolve(value !== undefined);
+  });
+}
+var dball = function () {
+  return dbget('*');
+}
 var dbset = function (key, value) {
   return new Promise((resolve, reject) => {
     var setObj = {};
@@ -78,7 +87,9 @@ var cleanObject = function (original) {
 }
 var output = {};
 output.get = dbget;
+output.has = dbget;
 output.set = dbset;
 output.push = dbpush;
 output.delete = dbdelete;
+output.all = dball;
 module.exports = output;

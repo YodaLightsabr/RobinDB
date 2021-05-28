@@ -55,7 +55,7 @@ Set a key in the database
 returns `Promise<Number>`
 
 ### `Robin.push(key, value)`
-Push a value to an array. The value at the specified key must be an array. Robin will not create an array for you.
+Push a value to an array. The value at the specified key must be an array. RobinDB will not create an array for you.
  - `key` - The key of the array to push to. If pushing to a key inside of objects, use dot notation. Required
  - `value` - The value to push to the array. Required
 

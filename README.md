@@ -1,3 +1,5 @@
+### ⚠️ RobinDB is now deprecated. Because any update to the package would cause database resets, you should run `db.get('*')` to access the entire database and save it elsewhere.
+
 # RobinDB
 A quick database for Node.js
 ## About RobinDB
